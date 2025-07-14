@@ -54,7 +54,7 @@ A modern, responsive implementation of the classic 2048 puzzle game built with N
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/khanhnguyentuann/2048-nextjs.git
    cd 2048-nextjs
    ```
 
@@ -104,54 +104,6 @@ A modern, responsive implementation of the classic 2048 puzzle game built with N
 4. The goal is to create a tile with the number 2048
 5. The game ends when no more moves are possible
 
-## 🔄 Refactoring Improvements
-
-This Next.js version includes several improvements over the original vanilla JavaScript implementation:
-
-### Code Organization
-- **Modular Architecture**: Separated game logic, components, and UI
-- **TypeScript Integration**: Type safety and better developer experience
-- **Component-Based Structure**: Reusable React components
-
-### Enhanced Features
-- **Mobile Support**: Touch gestures and responsive design
-- **Modern Styling**: Tailwind CSS for consistent, maintainable styles
-- **Performance**: React's efficient rendering and state management
-- **Accessibility**: Better keyboard navigation and screen reader support
-
-### Developer Experience
-- **Hot Reload**: Instant updates during development
-- **ESLint**: Code quality and consistency
-- **TypeScript**: Compile-time error checking
-- **Modern Build Tools**: Optimized production builds
-
-## 🌟 Key Features Comparison
-
-| Feature           | Original       | Next.js Version    |
-| ----------------- | -------------- | ------------------ |
-| Framework         | Vanilla JS     | Next.js + React    |
-| Styling           | CSS            | Tailwind CSS       |
-| Type Safety       | None           | TypeScript         |
-| Mobile Support    | Limited        | Full touch support |
-| Code Organization | Single file    | Modular components |
-| Build Process     | None           | Optimized builds   |
-| Development       | Manual refresh | Hot reload         |
-
-## 🚀 Deployment
-
-The application can be deployed to various platforms:
-
-- **Vercel** (recommended for Next.js)
-- **Netlify**
-- **AWS Amplify**
-- **GitHub Pages** (with static export)
-
-For Vercel deployment:
-```bash
-npm run build
-# Deploy to Vercel
-```
-
 ## 🤝 Contributing
 
 1. Fork the repository
@@ -159,14 +111,6 @@ npm run build
 3. Make your changes
 4. Add tests if applicable
 5. Submit a pull request
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## 🎮 Play Now
-
-Start playing immediately by running the development server and navigating to `http://localhost:3000`!
 
 ---
 
